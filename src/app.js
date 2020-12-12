@@ -93,7 +93,3 @@ app.post("/repositories/:id/like", (request, response) => {
 });
 
 module.exports = app;
-
-app.listen(3333, () => {
-  console.log('🚀 Back-end started')
-});
